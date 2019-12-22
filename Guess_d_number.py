@@ -10,7 +10,7 @@ while y not in ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15
 print (x)
 
 if int(y) == int(x) :
-	print ("Hurray you won")
+	print ("Congratulations you won")
 elif int(x) > int(y):
 	print ("Too low")
 elif int(x) < int(y) :
