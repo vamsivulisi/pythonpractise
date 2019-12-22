@@ -1,3 +1,3 @@
-#Python Practise
+## Python Practise
 
 My first repo
