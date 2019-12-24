@@ -78,7 +78,7 @@ def check_winner ():
     if r == True and c == True:
         game_on = False
         y = input ("congratulations you won the game. Type your name here :")
-        print (y + "is our new champion")
+        print (y + " is our new champion 'all hail the champion ")
 
 def play_game ():
     display_board()
