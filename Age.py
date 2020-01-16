@@ -76,7 +76,7 @@ def age():
         tt += month
     if int(y) == year and int(m)<= month:
         tt = month - int(m)
-    if tt == 12 :
+    if tt == 12 and int (d) == date :
         tt = 0
         z += 1  
 
@@ -93,8 +93,3 @@ def age():
     print ("your duration on this planet is " + str(z)+ "years "+ str(tt)+"months "+ str(weeks) + "weeks " + str(days)+ "days " + str(hour)+ "hours " + str(mint)+ "minutes "+ str(seconds)+ "seconds ")
 
 age()
-
-
-
-
-    
